@@ -1,0 +1,39 @@
+# Core Libraries
+numpy==1.23.6
+pandas==1.5.3
+matplotlib==3.7.2
+Pillow==9.6.0
+requests==2.31.0
+typing-extensions==4.7.1
+certifi==2025.7.10
+charset-normalizer==3.2.0
+idna==3.4
+urllib3==2.0.4
+
+# Game / Networking / Robotics Tools
+Flask==2.3.3
+Flask-SocketIO==5.3.2
+flask-cors==3.1.1
+flask-restful==0.3.9
+websockets==11.0.3
+paho-mqtt==1.6.4
+pyserial==3.6
+bleak==0.21.4
+sysv_ipc==1.1.1
+
+# Raspberry Pi Hardware Libraries
+RPi.GPIO==0.7.7
+gpiozero==2.2.3
+
+# AI / Vision Libraries
+torch==1.13.1
+torchvision==0.14.1
+torchaudio==0.13.1
+opencv-python==4.10.0.104
+
+# Camera
+libcamera==0.0.0  # system library, already installed on Raspberry Pi
+libcamera-utils==0.0.0  # system library
+python3-picamera2==0.15  # compatible version for Python 3.9
+pyttsx3==2.90
+SpeechRecognition==3.10.0
